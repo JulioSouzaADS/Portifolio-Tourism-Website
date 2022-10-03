@@ -1,0 +1,108 @@
+html {
+    
+    background-image: url(/src/images/fundo-principal-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    size: 100vh;
+    overflow-x:hidden;
+}
+
+.cabecalho {
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+}
+
+.cabecalho .logotipos .logo {
+    margin: 64px;
+    
+}
+.cabecalho .logotipos .logo-linha {
+    position: absolute;
+    padding: 90px 1px 1px 5px;
+
+}
+.cabecalho .mobile-menu button {
+    position: absolute;
+    right: 15px;
+    top: 65px;
+    font-size: 36px;
+    display: none;
+}
+
+.cabecalho ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:44px 265px;
+    margin-right: 0px;
+    padding: 9px;
+    color: rgb(247, 241, 241);
+    position: absolute;
+    right: 0;
+    width: 60%;
+    background-image: url(/src/images/Rectangle-header.png);
+    opacity: 0.8;
+    color: transparent;
+    
+}
+.cabecalho li {
+    font-size: 16px;
+    font-weight:600;
+    padding: 30px;
+    line-height: 19px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    
+}
+.cabecalho li a{
+    color: white;
+}
+.cabecalho .espaco {
+    margin-right: 10%;
+    
+}
+.cabecalho li:hover,
+.cabecalho .button-responsivo:hover {
+    cursor: pointer;
+    color: rgba(19, 13, 3, 0.329);
+    transition: 0.5s;
+}
+
+.conteudo-principal {
+    position: relative;
+}
+
+.conteudo-principal img {
+    position: absolute;
+    right: 0;
+    margin: 120px;
+}
+.conteudo-principal .paragrafo {
+    color: white;
+    margin: 105px 0 0 134px;
+    width: 25%;
+
+}
+
+.conteudo-principal .paragrafo h2 {
+    font-size: 28px;
+
+}
+
+.conteudo-principal .paragrafo h1 {
+    font-size: 150px;
+
+}
+
+.conteudo-principal .paragrafo p {
+    font-size: 18px;
+}
+
+.mobile-menu button:focus ~ li {
+    height: 200px;
+}
+
+.rodape {
+    height: 35vh;
+}

@@ -1,0 +1,161 @@
+@media (max-width:1025px ){
+
+    html {
+        background-image: url(/src/images/fundo-principal-mobile.jpg);
+    }
+
+ 
+    .cabecalho {
+        display: inline-block;
+        position: relative;
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .cabecalho .logotipos .logo{
+        padding: 40px;
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .cabecalho .logotipos .logo-linha{
+        padding: 40px;
+        font-size: 18px;
+        display: none;
+    }
+
+    .cabecalho ul {  
+        display: inline-block;
+        text-align: right;
+        width: 30%;
+        position: absolute;
+        margin: 0;
+        height: 0;
+        display: none;
+        
+    }
+
+    .cabecalho li {
+        display: block;
+        padding: 1px;
+    }
+
+    .cabecalho .mobile-menu .button-responsivo{
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: 35px;
+        margin: 0;
+
+    }
+    .conteudo-principal {
+        display: block;
+        position: relative;
+        float: right;
+        margin-right: 10%;  
+
+    }
+    .conteudo-principal .imagem-explore img {
+        
+        display: flex;
+        align-items: center;
+        text-align: center;
+        width: 60%;
+    }
+
+    .conteudo-principal img {
+        display: block;
+        top: 400px;
+        left: 190px; 
+        margin: 0px;
+    }
+
+    .conteudo-principal .paragrafo{
+        display: block;
+        position: relative;
+        width: 80%;
+        right: 1px;
+        margin: 0 0 0 134px; 
+        
+    }
+    
+    .conteudo-principal .paragrafo h2 {
+        font-size: 28px;
+        margin-top: 40px;
+        text-align: center;    
+    }
+    .conteudo-principal .paragrafo h1 {
+        font-size: 80px;
+        text-align: center;
+        margin-top: 25px;
+    }
+    .conteudo-principal .paragrafo p {
+        font-size: 18px;
+        margin-bottom: 30px;
+        text-align: center;
+        margin-top: 20px;
+    }  
+    }
+
+     @media (max-width:768px ) {
+
+        .conteudo-principal {
+            margin: 0;
+        }
+ 
+        .conteudo-principal .paragrafo {
+            display: block;
+            width: 100%;
+            margin: 0px;   
+                
+        }
+        .conteudo-principal .paragrafo p {
+            margin: 30px;
+            flex-wrap: wrap;
+        }
+
+        .conteudo-principal .imagem-explore img {
+            display: block;
+            width: 50%;
+            align-items: center;
+            text-align: center;
+        }
+        .conteudo-principal img {
+            display: block;
+            position: absolute;
+            left: 30%;
+            
+        }
+
+        /* @media (max-width :625px ) {
+            
+        .conteudo-principal {
+            float: none;
+        }
+
+        .conteudo-principal img {
+            display: block;
+            position: absolute;
+            width: 70%;
+     
+            margin: 10%;
+        }
+        } */
+    } 
+        @media (max-width :425px) {
+        
+            .cabecalho .mobile-menu .button-responsivo{
+                display: block;
+                position: absolute;
+                right: 15%;
+                top: 35px;
+                margin: 0;
+        
+            }
+
+            .conteudo-principal .imagem-explore img {
+                width: 40%;
+            }
+
+        }
+    

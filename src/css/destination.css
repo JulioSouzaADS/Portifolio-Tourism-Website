@@ -1,0 +1,244 @@
+html {
+    background-image: url(src//images/Desktop-Destinatio.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    size: 100vh;
+    overflow-x:hidden;
+}
+
+.cabecalho {
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+}
+
+.cabecalho .logotipos .logo {
+    margin: 64px;
+    
+}
+.cabecalho .logotipos .logo-linha {
+    position: absolute;
+    padding: 90px 1px 1px 5px;
+
+}
+.cabecalho .mobile-menu button {
+    position: absolute;
+    right: 15px;
+    top: 65px;
+    font-size: 36px;
+    display: none;
+}
+
+.cabecalho ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:44px 265px;
+    margin-right: 0px;
+    padding: 9px;
+    color: white;
+    position: absolute;
+    right: 0;
+    width: 60%;
+    background-image: url(src//images/Rectangle-header.png);
+    opacity: 0.8;
+    color: transparent;
+    
+}
+.cabecalho li {
+    font-size: 16px;
+    font-weight:600;
+    padding: 30px;
+    line-height: 19px;
+    color: white;
+    font-weight: 600;
+    
+}
+.cabecalho .espaco {
+    margin-right: 10%;
+    
+}
+.cabecalho li:hover,
+.cabecalho .button-responsivo:hover {
+    cursor: pointer;
+    color: rgba(19, 13, 3, 0.329);
+    transition: 0.5s;
+}
+.conteudo-principal {
+    display: flex;
+   
+    margin: 20px 163px 198px 166px;
+}
+
+.conteudo-principal .caixa-imagem-explore {
+    display: flex;
+    align-self: left;
+    
+}
+.conteudo-principal .caixa-imagem-explore h2 {
+    color: white;
+  
+}
+
+.conteudo-principal .caixa-imagem-explore img{
+  width: 400px;
+  height: 400px;
+  margin: 80px;
+}
+
+.conteudo-principal .paragrafo {
+    text-align: justify;
+    color: white;
+    flex-direction: row;
+    margin: 80px 100px;
+}
+.conteudo-principal .paragrafo nav{
+    display: flex;
+    flex-direction: row;
+   
+}
+.conteudo-principal .paragrafo ul{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.conteudo-principal .paragrafo li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: left;
+}
+.conteudo-principal .paragrafo .conteudo-paragrafo h2 {
+   font-size: 100px;
+}
+.conteudo-principal .paragrafo .conteudo-paragrafo p {
+    font-size: 18px;
+    text-align: left;
+    width: 80%;
+}
+
+.conteudo-principal .paragrafo .conteudo-paragrafo img {
+    border: 20%;
+    font-size: 18px;
+    top: 50%;
+
+}
+.detalhes { 
+    display: flex;
+    margin: 60px;
+    border: 20px;
+}
+.detalhes .distance {
+    width: 50%;
+}
+
+.detalhes .distance {
+    font-size: 14px;
+    width: 50%;
+}
+.detalhes .distance span{
+    font-size: 32px;
+    width: 50%;
+}
+.detalhes .travel-time {
+    font-size: 14px;
+    width: 50%;
+ 
+}
+
+.detalhes .travel-time span{
+    font-size: 32px;
+    width: 50%;
+
+}
+
+@media (max-width: 375px) {
+   
+    .cabecalho {
+        display: inline-block;
+        width: 100%;
+    }
+    .cabecalho .logotipos .logo {
+        margin: 10%;
+    }
+
+    .cabecalho nav {
+        display: none;
+    }
+    .cabecalho .mobile-menu button {
+        display: inline-block;
+        top: 30%;
+        color: #D0D6F9;
+        background-color: transparent;
+    }
+
+    .conteudo-principal {
+        display: inline;
+        position: relative;
+        width: 100%;
+    }
+    .conteudo-principal .caixa-imagem-explore h2 {
+        text-align: center;
+        width: 100%;
+        margin: auto auto;
+    }
+    .conteudo-principal .caixa-imagem-explore .imagem-explore img {
+        width: 175px;
+        height: 175px;
+    }
+
+    .conteudo-principal .paragrafo {
+        margin: 2%;
+    }
+    .conteudo-principal .paragrafo nav ul{
+        width: 100%;
+
+    }
+    .conteudo-principal .paragrafo nav li{
+        width: 100%;
+        padding: 2%;
+    }
+
+    .conteudo-principal .paragrafo .conteudo-paragrafo-moon h2 {
+        font-size: 56px;
+        text-align: center;
+        
+    }
+    .conteudo-principal .paragrafo .conteudo-paragrafo-moon p {
+        
+        text-align: center;
+        margin: auto auto;
+    
+    }
+    .conteudo-principal .paragrafo nav li:hover {
+        cursor: pointer;
+        text-decoration: underline;
+        transition: 0.5s ease-in-out;
+    }
+    .detalhes { 
+        display: inline;
+    }
+    .detalhes .distance {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .detalhes .distance span{
+        font-size: 32px;
+        width: 50%;
+    }
+    .detalhes .travel-time {
+        font-size: 14px;
+        width: 100%;
+        text-align: center;
+     
+    }
+    
+    .detalhes .travel-time span{
+        font-size: 32px;
+        width: 50%;
+    
+    }
+}
